@@ -63,26 +63,25 @@ source ~/.vim/signature.vimrc
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'Vundlevim/Vundle.vim'
-
-Plugin 'preservim/nerdtree'
-
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-
-Plugin 'preservim/tagbar'
-
-call vundle#end()
-filetype plugin indent on
-map <F9> :NERDTreeToggle<cr>
-
-set laststatus=2
-set t_Co=256
-let g:airline_theme="bubblegum"
-map <F5> :TagbarToggle<cr>
-map <F4> :set paste<cr>
-let g:tagbar_autoclose=1
-
+" set rtp+=~/.vim/bundle/Vundle.vim
+" call vundle#begin()
+" 
+" Plugin 'Vundlevim/Vundle.vim'
+" 
+" Plugin 'preservim/nerdtree'
+" 
+" Plugin 'vim-airline/vim-airline'
+" Plugin 'vim-airline/vim-airline-themes'
+" 
+" Plugin 'preservim/tagbar'
+" 
+" call vundle#end()
+" filetype plugin indent on
+" map <F9> :NERDTreeToggle<cr>
+" 
+" set laststatus=2
+" set t_Co=256
+" let g:airline_theme="bubblegum"
+" map <F5> :TagbarToggle<cr>
+" map <F4> :set paste<cr>
+" let g:tagbar_autoclose=1
